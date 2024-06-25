@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Assignment Form</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+    input {
+        width: 300px;
+    }
+    td {
+        padding-bottom: 10px;
+    }
+    form {
+    width: 700px;
+    margin: auto;
+    padding: 40px 0px;
+}
+.input-suffix {
+    font-size: 12px;
+}
+
+fieldset {
+    padding: 20px;
+}
+.submit-button {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+button {
+    padding: 10px 40px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFF;
+}
+</style>
+<body>
+    <form action="post">
+        <fieldset>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h1>
+                            Task Assignment Form
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label> Employee Name </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="First Name" >
+                        <p class="input-suffix">First Name</p>
+                    </td>
+                    <td>
+                        <input type="text" name="Last Name">
+                        <p class="input-suffix">Last Name</p>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <td colspan="2">
+                        <label> Manager Name </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="First Name" >
+                        <p class="input-suffix">First Name</p>
+                    </td>
+                    <td>
+                        <input type="text" name="Last Name">
+                        <p class="input-suffix">Last Name</p>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td >
+                        <label> Task </label>
+                    </td>
+                    <td >
+                        <label> Task ID </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="Task" >
+                        
+                    </td>
+                    <td>
+                        <input type="text" name="Task ID" placeholder="ex:3">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>
+                            Status
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="status" style="width: auto;"> Not Started
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="status" style="width: auto;"> In Progress
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="status" style="width: auto;"> Done
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="status" style="width: auto;"> Awaiting Feedback
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Additional Notes</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea style="width: 99%;" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Instructions</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea style="width: 99%;" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-button">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
